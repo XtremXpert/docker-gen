@@ -1,8 +1,7 @@
 docker-gen
 =====
 
-![latest 0.7.3](https://img.shields.io/badge/latest-0.7.3-green.svg?style=flat)
-[![Build Status](https://travis-ci.org/jwilder/docker-gen.svg?branch=master)](https://travis-ci.org/jwilder/docker-gen)
+![latest 0.7.4](https://img.shields.io/badge/latest-0.7.4-green.svg?style=flat)
 ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)
 
 `docker-gen` is a file generator that renders templates using docker container meta-data.
@@ -17,36 +16,6 @@ It can be used to generate various kinds of files for:
 ===
 
 ### Installation
-
-There are three common ways to run docker-gen:
-* on the host
-* bundled in a container with another application
-* separate standalone containers
-
-#### Host Install
-
-Linux/OSX binaries for release [0.7.3](https://github.com/jwilder/docker-gen/releases)
-
-* [amd64](https://github.com/jwilder/docker-gen/releases/download/0.7.3/docker-gen-linux-amd64-0.7.3.tar.gz)
-* [i386](https://github.com/jwilder/docker-gen/releases/download/0.7.3/docker-gen-linux-i386-0.7.3.tar.gz)
-* [alpine-linux](https://github.com/jwilder/docker-gen/releases/download/0.7.3/docker-gen-alpine-linux-amd64-0.7.3.tar.gz)
-
-Download the version you need, untar, and install to your PATH.
-
-```
-$ wget https://github.com/jwilder/docker-gen/releases/download/0.7.3/docker-gen-linux-amd64-0.7.3.tar.gz
-$ tar xvzf docker-gen-linux-amd64-0.7.3.tar.gz
-$ ./docker-gen
-```
-
-#### Bundled Container Install
-
-Docker-gen can be bundled inside of a container along-side applications.
-
-[jwilder/nginx-proxy](https://index.docker.io/u/jwilder/nginx-proxy/) trusted build is an example of
-running docker-gen within a container along-side nginx.
-[jwilder/docker-register](https://github.com/jwilder/docker-register) is an example of running
-docker-gen within a container to do service registration with etcd.
 
 #### Separate Container Install
 
